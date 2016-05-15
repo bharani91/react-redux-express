@@ -6,7 +6,7 @@
 **[Demo](https://react-redux-express.herokuapp.com/)**
 
 
-![React Redux Express](./screenshot.png)
+[![React Redux Express](./screenshot.png)](https://react-redux-express.herokuapp.com/)
 
 
 
