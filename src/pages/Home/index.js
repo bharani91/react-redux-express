@@ -2,9 +2,9 @@ import React, { Component, PropTypes } from 'react'
 import { LinkContainer } from "react-router-bootstrap"
 import { Grid, Row, Col, Button } from 'react-bootstrap'
 import { connect } from 'react-redux'
-import { incrementCounter } from '../../actions/counterActions'
+import { incrementCounter } from 'actions/counterActions'
 import { Link } from "react-router"
-import Counter from "../../components/Counter"
+import Counter from "components/Counter"
 
 import style from './home.scss'
 

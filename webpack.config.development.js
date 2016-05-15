@@ -63,5 +63,18 @@ module.exports = {
   _hotPort: 8001,
   postcss: [
     require('autoprefixer')
-  ]
+  ],
+  resolve: {
+    alias: {
+      root: path.resolve("./src"),
+      actions: path.resolve("./src/actions"),
+      components: path.resolve("./src/components"),
+      constants: path.resolve("./src/constants"),
+      containers: path.resolve("./src/containers"),
+      pages: path.resolve("./src/pages"),
+      reducers: path.resolve("./src/reducers"),
+      store: path.resolve("./src/store"),
+      styles: path.resolve("./src/styles")
+    }
+  }
 }

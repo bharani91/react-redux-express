@@ -1,6 +1,6 @@
 import {createStore, applyMiddleware, compose} from 'redux'
 import promise from 'redux-promise'
-import rootReducer from '../reducers'
+import rootReducer from 'reducers'
 import {routerMiddleware} from 'react-router-redux'
 
 export default function configureStore (history, initialState = {}) {
