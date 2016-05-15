@@ -52,4 +52,4 @@ module.exports = _.extend({}, config, {
       '__DEV__': JSON.stringify(false)
     })
   ]
-}
+})
